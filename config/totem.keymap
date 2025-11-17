@@ -86,10 +86,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q  &kp W           &kp E        &kp R             &kp T        &kp Z    &kp U        &kp I        &kp O       &kp P
-           &kp A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G        &kp H    &mt RSHFT J  &mt RCTRL K  &mt RALT L  &kp SEMICOLON
-&kp LCTRL  &kp Y  &kp X           &kp C        &kp V             &kp B        &kp N    &kp M        &kp COMMA    &kp DOT     &kp MINUS      &kp RIGHT_ALT
-                                  &kp DEL      &lt NAV TAB       &kp SPACE    &kp RET  &lt SYM ESC  &kp BSPC
+                &kp Q              &kp W           &kp E        &kp R             &kp T        &kp Z    &kp U        &kp I        &mt DE_O_UMLAUT O  &kp P
+                &mt DE_A_UMLAUT A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G        &kp H    &mt RSHFT J  &mt RCTRL K  &mt RALT L         &kp DE_HASH
+&kp LEFT_SHIFT  &kp Y              &kp X           &kp C        &kp V             &kp B        &kp N    &kp M        &kp COMMA    &kp DOT            &kp MINUS    &kp LCTRL
+                                                   &kp DEL      &lt NAV TAB       &kp SPACE    &kp RET  &lt SYM ESC  &kp BSPC
             >;
         };
 
@@ -112,10 +112,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC           &kp LEFT_WIN   &kp UP    &kp EQUAL         &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
-        &kp SINGLE_QUOTE  &kp LEFT       &kp DOWN  &kp RIGHT         &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&trans  &kp GRAVE         &kp LESS_THAN  &kp CAPS  &kp GREATER_THAN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &kp SLASH
-                                         &trans    &trans            &trans      &mo ADJ   &kp KP_N0  &trans
+        &kp ESC              &kp LEFT_WIN      &kp UP    &kp DE_DEGREE        &kp DE_LEFT_BRACE          &kp DE_RIGHT_BRACE        &kp KP_N7  &kp KP_N8  &kp KP_N9  &mt DE_ASTRK DE_PLUS
+        &kp DE_SINGLE_QUOTE  &kp LEFT          &kp DOWN  &kp RIGHT            &kp DE_LEFT_BRACKET        &kp DE_RIGHT_BRACKET      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp DE_HASH
+&trans  &kp DE_GRAVE         &kp DE_LESS_THAN  &kp CAPS  &kp DE_GREATER_THAN  &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp KP_N1  &kp KP_N2  &kp KP_N3  &mt DE_UNDERSCORE DE_MINUS  &trans
+                                               &trans    &trans               &trans                     &mo ADJ                   &kp KP_N0  &trans
             >;
         };
 
@@ -138,10 +138,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCLAMATION  &kp DQT      &kp HASH   &kp DLLR  &kp PRCNT    &kp AMPERSAND  &kp SLASH       &kp EQUAL   &kp QUESTION  &kp TILDE
-        &kp RA(A)        &trans       &kp RA(S)  &trans    &trans       &kp C_MUTE     &kp LS(RA(N4))  &kp RA(N5)  &kp RA(N4)    &kp RA(O)
-&trans  &kp RA(F18)      &kp RA(F19)  &trans     &trans    &trans       &kp C_VOL_DN   &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT    &kp BSLH   &trans
-                                      &trans     &mo 3     &mo ADJ      &trans         &kp C_PP        &trans
+        &kp DE_EXCLAMATION  &kp DE_DOUBLE_QUOTES  &kp DE_HASH  &kp DE_DOLLAR  &kp DE_PERCENT    &kp AMPERSAND  &kp DE_SLASH      &kp DE_EQUAL  &kp DE_QUESTION  &kp TILDE
+        &kp RA(A)           &kp LG(L)             &kp RA(S)    &trans         &trans            &kp C_MUTE     &kp DE_BACKSLASH  &kp RA(N5)    &kp RA(N4)       &kp RA(O)
+&trans  &kp RA(F18)         &kp RA(F19)           &trans       &trans         &trans            &kp C_VOL_DN   &kp C_VOL_UP      &kp C_PREV    &kp C_NEXT       &kp DE_UNDERSCORE  &trans
+                                                  &trans       &mo 3          &mo ADJ           &trans         &kp C_PP          &trans
             >;
         };
 
