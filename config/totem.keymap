@@ -49,6 +49,22 @@
             bindings = <&to 0>;
             key-positions = <22 23 24>;
         };
+
+        ae {
+            bindings = <&kp DE_A_UMLAUT>;
+            key-positions = <2 10>;
+            layers = <0>;
+        };
+
+        ue {
+            bindings = <&kp DE_U_UMLAUT>;
+            key-positions = <2 6>;
+        };
+
+        oe {
+            bindings = <&kp DE_O_UMLAUT>;
+            key-positions = <8 2>;
+        };
     };
 
     macros {
