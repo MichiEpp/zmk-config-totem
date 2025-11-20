@@ -145,10 +145,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC       &kp LEFT_WIN                      &kp UP        &kp DE_DEGREE  &kp DE_LEFT_BRACE          &kp DE_RIGHT_BRACE        &kp KP_N7  &kp KP_N8  &kp KP_N9  &mt DE_ASTRK DE_PLUS
-        &kp LC(DE_A)  &kp LEFT                          &kp DOWN      &kp RIGHT      &kp DE_LEFT_BRACKET        &kp DE_RIGHT_BRACKET      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp DE_HASH
-&trans  &kp DE_GRAVE  &mt DE_LESS_THAN DE_GREATER_THAN  &kp LC(DE_C)  &kp LC(DE_V)   &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp KP_N1  &kp KP_N2  &kp KP_N3  &mt DE_UNDERSCORE DE_MINUS  &trans
-                                                        &trans        &trans         &trans                     &mo 3                     &kp KP_N0  &trans
+        &kp ESC       &kp LEFT_WIN  &kp UP        &kp DE_DEGREE  &kp DE_LEFT_BRACE          &kp DE_RIGHT_BRACE        &kp KP_N7  &kp KP_N8  &kp KP_N9  &mt DE_ASTRK DE_PLUS
+        &kp LC(DE_A)  &kp LEFT      &kp DOWN      &kp RIGHT      &kp DE_LEFT_BRACKET        &kp DE_RIGHT_BRACKET      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp DE_HASH
+&trans  &kp DE_GRAVE  &kp LC(DE_X)  &kp LC(DE_C)  &kp LC(DE_V)   &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp KP_N1  &kp KP_N2  &kp KP_N3  &mt DE_UNDERSCORE DE_MINUS  &trans
+                                    &trans        &trans         &trans                     &mo 3                     &kp KP_N0  &trans
             >;
         };
 
@@ -172,8 +172,8 @@
 
             bindings = <
         &kp DE_EXCLAMATION  &kp DE_DOUBLE_QUOTES  &kp DE_HASH  &kp DE_DOLLAR  &kp DE_PERCENT    &kp AMPERSAND  &kp DE_SLASH      &kp DE_EQUAL  &kp DE_QUESTION  &kp TILDE
-        &kp RA(A)           &kp LG(L)             &kp RA(S)    &trans         &trans            &kp C_MUTE     &kp DE_BACKSLASH  &kp RA(N5)    &kp RA(N4)       &kp RA(O)
-&trans  &kp RA(F18)         &kp RA(F19)           &trans       &trans         &trans            &kp C_VOL_DN   &kp C_VOL_UP      &kp C_PREV    &kp C_NEXT       &kp DE_UNDERSCORE  &trans
+        &kp DE_LESS_THAN    &kp LG(L)             &kp RA(S)    &trans         &trans            &kp C_MUTE     &kp DE_BACKSLASH  &kp RA(N5)    &kp RA(N4)       &kp RA(O)
+&trans  &kp RA(F18)         &kp DE_GREATER_THAN   &trans       &trans         &trans            &kp C_VOL_DN   &kp C_VOL_UP      &kp C_PREV    &kp C_NEXT       &kp DE_UNDERSCORE  &trans
                                                   &trans       &mo 3          &to 4             &trans         &kp C_PP          &trans
             >;
         };
