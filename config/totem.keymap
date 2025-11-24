@@ -49,6 +49,21 @@
             bindings = <&to 0>;
             key-positions = <22 23 24>;
         };
+
+        ae {
+            bindings = <&kp DE_A_UMLAUT>;
+            key-positions = <10 2>;
+        };
+
+        oe {
+            bindings = <&kp DE_O_UMLAUT>;
+            key-positions = <2 8>;
+        };
+
+        ue {
+            bindings = <&kp DE_U_UMLAUT>;
+            key-positions = <6 2>;
+        };
     };
 
     macros {
@@ -91,6 +106,15 @@
             compatible = "zmk,behavior-mod-morph";
             label = "U_UE";
             bindings = <&kp U>, <&kp DE_U_UMLAUT>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RALT)>;
+        };
+
+        s_sz: s_sz {
+            compatible = "zmk,behavior-mod-morph";
+            label = "S_SZ";
+            bindings = <&kp DE_S>, <&kp DE_SZ>;
 
             #binding-cells = <0>;
             mods = <(MOD_RALT)>;
