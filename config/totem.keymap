@@ -169,10 +169,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC       &kp LEFT_WIN  &kp UP        &kp DE_DEGREE  &kp DE_LEFT_BRACE          &kp DE_RIGHT_BRACE        &kp KP_N7  &kp KP_N8  &kp KP_N9  &mt DE_ASTRK DE_PLUS
-        &kp LC(DE_A)  &kp LEFT      &kp DOWN      &kp RIGHT      &kp DE_LEFT_BRACKET        &kp DE_RIGHT_BRACKET      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp DE_HASH
-&trans  &kp DE_GRAVE  &kp LC(DE_X)  &kp LC(DE_C)  &kp LC(DE_V)   &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp KP_N1  &kp KP_N2  &kp KP_N3  &mt DE_UNDERSCORE DE_MINUS  &trans
-                                    &kp LEFT_ALT  &trans         &trans                     &trans                    &kp KP_N0  &trans
+        &kp LS(LG(DE_S))  &kp LEFT_WIN  &kp UP        &mt DE_DEGREE DE_CARET  &kp DE_LEFT_BRACE          &kp DE_RIGHT_BRACE        &kp KP_N7  &kp KP_N8  &kp KP_N9  &mt DE_ASTRK DE_PLUS
+        &kp LC(DE_A)      &kp LEFT      &kp DOWN      &kp RIGHT               &kp DE_LEFT_BRACKET        &kp DE_RIGHT_BRACKET      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp DE_HASH
+&trans  &kp DE_GRAVE      &kp LC(DE_X)  &kp LC(DE_C)  &kp LC(DE_V)            &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp KP_N1  &kp KP_N2  &kp KP_N3  &mt DE_UNDERSCORE DE_MINUS  &trans
+                                        &kp LEFT_ALT  &trans                  &trans                     &mt DE_COMMA DOT          &kp KP_N0  &trans
             >;
         };
 
@@ -195,9 +195,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp DE_EXCLAMATION  &kp DE_DOUBLE_QUOTES              &kp DE_HASH       &kp DE_DOLLAR  &kp DE_PERCENT    &kp DE_AMPERSAND  &kp DE_SLASH      &kp DE_EQUAL  &kp DE_QUESTION  &kp TILDE
-        &kp RA(A)           &kp LG(L)                         &kp LA(DE_SPACE)  &kp HOME       &kp END           &trans            &kp DE_BACKSLASH  &trans        &trans           &trans
-&trans  &kp RA(F18)         &mt DE_GREATER_THAN DE_LESS_THAN  &kp LA(F4)        &kp LA(TAB)    &kp LG(R)         &trans            &trans            &trans        &trans           &trans     &trans
+        &kp DE_EXCLAMATION  &kp DE_DOUBLE_QUOTES              &kp DE_HASH       &kp DE_DOLLAR  &kp DE_PERCENT    &kp DE_AMPERSAND  &kp DE_SLASH      &kp DE_EQUAL  &kp DE_QUESTION        &kp TILDE
+        &kp DE_PIPE         &kp LG(L)                         &kp LA(DE_SPACE)  &kp HOME       &kp END           &trans            &kp DE_BACKSLASH  &trans        &mt DE_GRAVE DE_ACUTE  &trans
+&trans  &trans              &mt DE_GREATER_THAN DE_LESS_THAN  &kp LA(F4)        &kp LA(TAB)    &kp LG(R)         &trans            &trans            &trans        &trans                 &trans     &trans
                                                               &trans            &mo 3          &to 4             &trans            &kp C_PP          &trans
             >;
         };
