@@ -240,10 +240,19 @@
         layer_8 {
             label = "Game";
             bindings = <
-                &kp Q     &kp W     &kp E      &kp R           &kp T        &kp DE_Z             &u_ue      &kp I      &o_oe     &kp P
-                &a_ae     &kp DE_S  &kp DE_D   &kp DE_F        &kp G        &kp H                &kp DE_J   &kp DE_K   &kp DE_L  &kp DE_HASH
-&kp LEFT_SHIFT  &kp DE_Y  &kp X     &kp C      &kp V           &kp B        &kp N                &kp M      &kp COMMA  &kp DOT   &kp DE_MINUS  &kp LCTRL
-                                    &kp LCTRL  &kp LEFT_SHIFT  &kp SPACE    &mt RIGHT_ALT ENTER  &lt 2 ESC  &kp BSPC
+                &kp Q     &kp W     &kp E      &kp R     &kp T        &kp DE_Z             &u_ue      &kp I      &o_oe     &kp P
+                &a_ae     &kp DE_S  &kp DE_D   &kp DE_F  &kp G        &kp H                &kp DE_J   &kp DE_K   &kp DE_L  &kp DE_HASH
+&kp LEFT_SHIFT  &kp DE_Y  &kp X     &kp C      &kp V     &kp B        &kp N                &kp M      &kp COMMA  &kp DOT   &kp DE_MINUS  &kp LCTRL
+                                    &kp LCTRL  &mo 5     &kp SPACE    &mt RIGHT_ALT ENTER  &lt 2 ESC  &kp BSPC
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
