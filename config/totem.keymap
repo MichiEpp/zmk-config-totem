@@ -42,7 +42,7 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <17 18>;
+            key-positions = <28 29>;
         };
 
         home {
