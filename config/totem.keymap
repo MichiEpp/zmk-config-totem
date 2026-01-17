@@ -249,10 +249,19 @@
 
         layer_5 {
             bindings = <
-        &kp DE_N1  &kp DE_N4  &trans  &kp DE_N5  &kp DE_N6    &trans  &trans  &trans  &trans  &trans
-        &kp DE_N2  &trans     &trans  &trans     &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &kp DE_N3  &trans     &trans  &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
-                              &trans  &trans     &trans       &trans  &trans  &trans
+         &kp DE_P   &kp DE_O   &kp DE_I   &kp DE_U  &kp DE_Z    &trans  &trans  &trans  &trans  &trans
+         &kp DE_N1  &kp DE_L   &kp DE_K   &kp DE_J  &kp DE_H    &trans  &trans  &trans  &trans  &trans
+&kp TAB  &kp N2     &kp DE_N3  &kp DE_N4  &kp DE_M  &kp DE_N    &trans  &trans  &trans  &trans  &trans  &trans
+                               &trans     &trans    &trans      &trans  &trans  &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
