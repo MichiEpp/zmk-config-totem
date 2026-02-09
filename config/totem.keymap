@@ -139,10 +139,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp Q     &kp W  &kp E        &kp R             &kp T        &kp DE_Z       &u_ue        &kp I        &o_oe    &kp P
-                &a_ae     &s_sz  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G        &kp H          &mt RSHFT J  &mt RCTRL K  &kp L    &kp DE_HASH
-&kp LEFT_SHIFT  &kp DE_Y  &kp X  &kp C        &kp V             &kp B        &kp N          &kp M        &kp COMMA    &kp DOT  &kp DE_MINUS  &kp LCTRL
-                                 &kp DEL      &lt 1 TAB         &kp SPACE    &kp RIGHT_ALT  &mo 2        &kp BSPC
+                &kp Q     &kp W  &kp E        &kp R             &kp T             &kp DE_Z       &u_ue        &kp I        &o_oe    &kp P
+                &a_ae     &s_sz  &mt LCTRL D  &mt LEFT_SHIFT F  &mt LEFT_ALT G    &kp H          &mt RSHFT J  &mt RCTRL K  &kp L    &kp DE_HASH
+&kp LEFT_SHIFT  &kp DE_Y  &kp X  &kp C        &kp V             &kp B             &kp N          &kp M        &kp COMMA    &kp DOT  &kp DE_MINUS  &kp LCTRL
+                                 &kp DEL      &lt 1 TAB         &kp SPACE         &kp RIGHT_ALT  &mo 2        &kp BSPC
             >;
         };
 
