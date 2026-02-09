@@ -43,6 +43,7 @@
         enter {
             bindings = <&kp ENTER>;
             key-positions = <28 29>;
+            layers = <0 2 4 5>;
         };
 
         home {
