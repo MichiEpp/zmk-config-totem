@@ -192,9 +192,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp DE_EXCLAMATION   &kp DE_DOUBLE_QUOTES              &kp DE_HASH       &kp DE_DOLLAR  &kp DE_PERCENT    &kp DE_AMPERSAND  &kp DE_SLASH      &kp DE_EQUAL  &kp DE_QUESTION        &kp TILDE
-        &kp DE_PIPE          &kp LG(L)                         &kp LA(DE_SPACE)  &kp HOME       &kp END           &trans            &kp DE_BACKSLASH  &trans        &mt DE_GRAVE DE_ACUTE  &trans
-&trans  &mt DE_DEG DE_CARET  &mt DE_GREATER_THAN DE_LESS_THAN  &kp LA(F4)        &kp LA(TAB)    &kp LG(R)         &trans            &kp ESCAPE        &trans        &trans                 &trans     &trans
+        &kp DE_EXCLAMATION   &kp DE_DOUBLE_QUOTES              &kp DE_HASH       &kp DE_DOLLAR  &kp DE_PERCENT    &kp DE_AMPERSAND  &kp DE_SLASH      &kp DE_EQUAL  &kp DE_QUESTION  &kp TILDE
+        &kp DE_PIPE          &kp LG(L)                         &kp LA(DE_SPACE)  &kp HOME       &kp END           &trans            &kp DE_BACKSLASH  &trans        &mt DE_ACUTE C   &trans
+&trans  &mt DE_DEG DE_CARET  &mt DE_GREATER_THAN DE_LESS_THAN  &kp LA(F4)        &kp LA(TAB)    &kp LG(R)         &trans            &kp ESCAPE        &trans        &trans           &trans     &trans
                                                                &trans            &mo 3          &trans            &trans            &kp C_PP          &trans
             >;
         };
