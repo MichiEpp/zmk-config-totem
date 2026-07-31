@@ -240,10 +240,10 @@
 
         layer_5 {
             bindings = <
-         &kp DE_P   &kp DE_O   &kp DE_I       &kp DE_U  &kp DE_Z    &trans  &kp DE_N7  &kp DE_N8  &kp DE_N9  &kp DE_PLUS
-         &kp DE_N1  &kp DE_L   &kp DE_K       &kp DE_J  &kp DE_H    &trans  &kp DE_N4  &kp DE_N5  &kp DE_N6  &kp DE_FSLH
-&kp TAB  &kp N2     &kp DE_N3  &kp DE_N4      &kp DE_M  &kp DE_N    &trans  &kp N1     &kp DE_N2  &kp DE_N3  &kp DE_MINUS  &kp LSHIFT
-                               &kp BACKSPACE  &trans    &trans      &trans  &kp N0     &trans
+         &kp DE_P   &kp DE_O   &kp DE_I       &kp DE_U  &kp DE_Z    &kp DE_N4  &kp DE_N3       &kp DE_N2       &kp DE_N1        &kp DE_N0
+         &kp DE_N1  &kp DE_L   &kp DE_K       &kp DE_J  &kp DE_H    &kp DE_N5  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp DE_FSLH
+&kp TAB  &kp N2     &kp DE_N3  &kp DE_N4      &kp DE_M  &kp DE_N    &kp DE_N6  &kp DE_N7       &kp DOWN_ARROW  &kp DE_N8        &kp DE_N9    &kp LSHIFT
+                               &kp BACKSPACE  &trans    &trans      &trans     &kp LEFT_ALT    &trans
             >;
         };
 
